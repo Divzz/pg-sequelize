@@ -14,4 +14,10 @@ Thread 1 -> Updates status of Id1 as closed but Thread 2 is not aware of it and 
 With skipLocked as true, if thread 1 gets the lock first, thread 2 should never read Id 1.
 
 
+For the code to work, need to define following environment variables:</br>
+* DB_USERNAME </br>
+* DB_PASSWORD </br>
+* DB_NAME
+
+
 
